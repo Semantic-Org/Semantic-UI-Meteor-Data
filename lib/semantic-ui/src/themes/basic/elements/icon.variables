@@ -1,0 +1,17 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*-------------------
+   Icon Variables
+--------------------*/
+
+@fontPath  : "/lib/semantic-ui/src/themes/basic/assets/fonts";
+
+@src:
+  url("@{fontPath}/@{fontName}.eot?#iefix") format('embedded-opentype'),
+  url("@{fontPath}/@{fontName}.woff") format('woff'),
+  url("@{fontPath}/@{fontName}.ttf") format('truetype'),
+  url("@{fontPath}/@{fontName}.svg#icons") format('svg')
+;

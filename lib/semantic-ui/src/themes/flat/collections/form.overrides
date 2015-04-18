@@ -1,0 +1,29 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*******************************
+           Overrides
+*******************************/
+
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form input[type="date"],
+.ui.form input[type="password"],
+.ui.form input[type="number"],
+.ui.form input[type="url"],
+.ui.form input[type="tel"] {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.ui.form .selection.dropdown {
+  border: none;
+  box-shadow: none !important;
+  border-bottom: 1px solid #DDDDDD;
+  border-radius: 0em !important;
+}
+
+.ui.form .ui.icon.input > .icon {
+  width: 1em;
+}

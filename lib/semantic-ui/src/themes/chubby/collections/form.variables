@@ -1,0 +1,14 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*-------------------
+   Form Variables
+--------------------*/
+
+@labelTextTransform: uppercase;
+@labelFontSize: 0.8em;
+
+@inputPadding: 1em 1.2em;
+@inputBorder: 2px solid @borderColor;

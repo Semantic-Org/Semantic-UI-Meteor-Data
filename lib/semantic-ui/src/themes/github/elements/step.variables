@@ -1,0 +1,25 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*-------------------
+   Step Variables
+--------------------*/
+
+/* Step */
+@background: linear-gradient(transparent, rgba(0, 0, 0, 0.07));
+@verticalPadding: 1em;
+
+/* Group */
+@stepsBackground: #FFFFFF;
+@stepsBoxShadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+
+/* States */
+@activeBackground: #FFFFFF;
+@activeIconColor: @darkTextColor;
+
+/* Arrow */
+@arrowTopOffset: 100%;
+@arrowRightOffset: 50%;
+@arrowBorderColor: rgba(0, 0, 0, 0.2);

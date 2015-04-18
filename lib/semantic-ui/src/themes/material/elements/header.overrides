@@ -1,0 +1,20 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*******************************
+           Overrides
+*******************************/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+h1.ui.header,
+.ui.huge.header {
+  font-weight: normal;
+}
+
+h2.ui.header,
+.ui.large.header {
+  font-weight: normal;
+}

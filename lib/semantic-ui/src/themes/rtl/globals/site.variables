@@ -1,0 +1,19 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  semantic:ui v1.0.0
+  Semantic UI v1.12.0
+*/
+/*******************************
+         Site Settings
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@googleFontName    : 'Droid Sans';
+
+/* Kufi imported in site.overrides */
+@headerFont        : 'Droid Arabic Kufi', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Droid Arabic Kufi', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
