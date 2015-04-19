@@ -1,6 +1,6 @@
 Package.describe({
   name: 'semantic:ui-data',
-  version: '1.0.0',
+  version: '1.12.0',
   summary: 'Semantic UI data for Meteor',
   git: 'https://github.com/Semantic-Org/Semantic-UI-Meteor-Data.git',
   documentation: 'README.md'
