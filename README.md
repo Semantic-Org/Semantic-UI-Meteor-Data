@@ -1,7 +1,7 @@
 Meteor Semantic UI Data
 =======================
 
-This package does nothing more than providing server side access to [Semantic UI](http://semantic-ui.com) v1.12.0 files.
+This package does nothing more than providing server side access to [Semantic UI](http://semantic-ui.com) files.
 
 The package [semantic:ui](https://atmospherejs.com/semantic/ui) uses it.
 
