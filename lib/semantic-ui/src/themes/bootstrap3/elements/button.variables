@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*-------------------
    Button Variables
@@ -12,7 +12,7 @@
 @fontWeight: normal;
 @textColor: rgba(51, 51, 51, 1);
 
-@borderRadius: 0.2857rem;
+@borderRadius: @4px;
 
 @lineHeight: 1.42857;
 @verticalPadding: 0.8571em;

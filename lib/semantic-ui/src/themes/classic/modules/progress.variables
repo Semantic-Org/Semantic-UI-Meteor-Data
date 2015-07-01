@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
             Progress
@@ -10,3 +10,4 @@
 @boxShadow: 0px 0px 4px rgba(0, 0, 0, 0.1) inset;
 @barBackground: @subtleGradient #888888;
 @border: 1px solid @borderColor;
+@padding: @relative3px;

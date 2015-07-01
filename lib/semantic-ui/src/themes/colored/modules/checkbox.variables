@@ -1,0 +1,21 @@
+/*
+  DO NOT MODIFY - This file has been generated and will be regenerated
+  Semantic UI v2.0.0
+*/
+/* Checkbox */
+@checkboxActiveBackground: @primaryColor;
+@checkboxActiveBorderColor: @primaryColor;
+@checkboxActiveCheckColor: @white;
+@checkboxTransition: none;
+
+/* Slider */
+@sliderOnLineColor: @primaryColor;
+
+/* Radio */
+@radioActiveBulletColor @primaryColor;
+
+/* Handle */
+@handleBackground: @white @subtleGradient;
+@handleBoxShadow:
+  0px 0px 0px 1px @selectedBorderColor inset
+;

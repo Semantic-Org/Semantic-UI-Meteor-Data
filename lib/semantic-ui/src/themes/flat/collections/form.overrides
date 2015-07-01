@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
            Overrides
@@ -21,6 +21,10 @@
   box-shadow: none !important;
   border-bottom: 1px solid #DDDDDD;
   border-radius: 0em !important;
+}
+.ui.form .selection.dropdown > .menu {
+  border-top-width: 1px !important;
+  border-radius: @defaultBorderRadius !important;
 }
 
 .ui.form .ui.icon.input > .icon {

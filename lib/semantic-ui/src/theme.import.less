@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
         Import Directives
@@ -8,30 +8,37 @@
 
 @theme : @@element;
 
-/*------------------
-    Default Theme
--------------------*/
 
+/*--------------------
+   Site Variables
+---------------------*/
+
+/* Default */
 @import "@{themesFolder}/default/globals/site.variables";
+
+/* Packaged Theme */
+@import (optional) "@{themesFolder}/@{site}/globals/site.variables";
+
+/* Site Theme */
+@import (optional) "@{siteFolder}/globals/site.variables.import.less";
+
+
+/*-------------------
+ Component Variables
+---------------------*/
+
+/* Default */
 @import "@{themesFolder}/default/@{type}s/@{element}.variables";
 
-/*------------------
-   Packaged Theme
--------------------*/
-
-@import "@{themesFolder}/@{site}/globals/site.variables";
+/* Packaged Theme */
 @import "@{themesFolder}/@{theme}/@{type}s/@{element}.variables";
 
-/*------------------
-     Site Theme
--------------------*/
-
-@import "@{siteFolder}/globals/site.variables.import.less";
-@import "@{siteFolder}/@{type}s/@{element}.variables.import.less";
+/* Site Theme */
+@import (optional) "@{siteFolder}/@{type}s/@{element}.variables.import.less";
 
 
 /*******************************
-        Import Mix-ins
+             Mix-ins
 *******************************/
 
 /*------------------
@@ -39,7 +46,7 @@
 -------------------*/
 
 .loadFonts() when (@importGoogleFonts) {
-  @import (css) '@{googleProtocol}fonts.googleapis.com/css?family=@{googleFontRequest}';
+  @import url('@{googleProtocol}fonts.googleapis.com/css?family=@{googleFontRequest}');
 }
 
 /*------------------
@@ -48,5 +55,5 @@
 
 .loadUIOverrides() {
   @import "@{themesFolder}/@{theme}/@{type}s/@{element}.overrides";
-  @import "@{siteFolder}/@{type}s/@{element}.overrides.import.less";
+  @import (optional) "@{siteFolder}/@{type}s/@{element}.overrides.import.less";
 }

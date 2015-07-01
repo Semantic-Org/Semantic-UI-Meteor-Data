@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
              Card
@@ -25,13 +25,15 @@
 @extraBoxShadow: none;
 @extraPadding: 0.5em 0em;
 
-@extraLinkColor: @linkColor;
-@extraLinkHoverColor: @linkColor;
+@extraLinkColor: @textColor;
+@extraLinkHoverColor: @linkHoverColor;
 
-@headerFontSize: 1.2em;
-@headerLinkColor: @linkColor;
+@headerFontSize: @relativeLarge;
+@headerLinkColor: @textColor;
+@headerLinkHoverColor: @linkHoverColor;
 
 @imageBorderRadius: @borderRadius;
 @imageBorder: 1px solid @borderColor;
 
+@linkHoverBackground: transparent;
 @linkHoverBoxShadow: none;

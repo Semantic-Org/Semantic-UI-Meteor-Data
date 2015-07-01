@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
     User Variable Overrides
@@ -11,6 +11,10 @@
 }
 .ui.feed > .event:last-child .label {
   border-left-color: transparent;
+}
+
+.ui.feed > .event > .label {
+  margin-left: 1.6em;
 }
 
 .ui.feed > .event > .label > img,
@@ -24,16 +28,4 @@
   left: -1.6rem;
   opacity: 1;
   position: relative;
-}
-
-.ui.feed > .event > .content {
-  display: block;
-  border-left: 3px solid #ddd;
-  padding-bottom: 2em;
-  padding-left: 4em;
-}
-.ui.feed > .event > .label + .content {
-  display: table-cell;
-  border-left: medium none;
-  margin-left: 0;
 }

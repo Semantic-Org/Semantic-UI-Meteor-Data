@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
              Form
@@ -18,13 +18,12 @@
 @fieldMargin: 0em 0em 1em;
 
 /* Form Label */
-@labelFontSize: 0.7857em;
+@labelFontSize: @relative11px;
 @labelTextTransform: uppercase;
 
 @groupedLabelTextTransform: none;
 
 /* Input */
-@inputVerticalPadding: 0.7857em;
 @inputHorizontalPadding: 0.5em;
 @inputBackground: transparent;
 @inputBorder: none;

@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
          Site Settings
@@ -67,6 +67,7 @@
 @linkColor           : #009FDA;
 @linkUnderline       : none;
 @linkHoverColor      : lighten( @linkColor, 5);
+@linkHoverUnderline  : @linkUnderline;
 
 @highlightBackground : #FFFFCC;
 @highlightColor      : @textColor;

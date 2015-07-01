@@ -1,13 +1,13 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*!
  * # Semantic UI - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
- * Copyright 2014 Contributors
+ * Copyright 2015 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
@@ -30,8 +30,10 @@
 
 .ui.shape {
   position: relative;
+  vertical-align: top;
   display: @display;
   perspective: @perspective;
+  transition: @transition;
 }
 
 .ui.shape .sides {
@@ -43,7 +45,6 @@
   width: 100%;
 
   margin: @sideMargin !important;
-
   backface-visibility: @backfaceVisibility;
 }
 
@@ -51,7 +52,7 @@
   display: none;
 }
 
-.ui.shape .side > * {
+.ui.shape .side * {
   backface-visibility: visible !important;
 }
 
@@ -121,6 +122,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  display: block;
   z-index: @animatingZIndex;
 }
 .ui.shape .hidden.side {
@@ -132,9 +134,6 @@
       CSS
 ---------------*/
 
-.ui.shape.animating {
-  transition: @transition;
-}
 .ui.shape.animating .sides {
   position: absolute;
 }

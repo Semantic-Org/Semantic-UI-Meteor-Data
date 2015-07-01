@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v1.12.1
+  Semantic UI v2.0.0
 */
 /*******************************
             Form
@@ -16,7 +16,7 @@
 @inputBorderRadius: 3px;
 
 @labelFontWeight: bold;
-@labelMargin: 6px;
+@labelDistance: 6px;
 
 /*-------------------
         States
