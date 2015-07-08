@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.0
+  Semantic UI v2.0.2
 */
 /*******************************
              Label
@@ -176,6 +176,9 @@
 @attachedVerticalPadding: 0.75em;
 @attachedHorizontalPadding: 1em;
 
+@attachedCornerBorderRadius: @3px;
+@attachedBorderRadius: @borderRadius;
+
 /* Corner */
 @cornerSizeRatio: 1;
 @cornerTransition: color @labelTransitionDuration @labelTransitionEasing;
@@ -225,7 +228,7 @@
 @tiny    : @10px;
 @small   : @11px;
 @medium  : @12px;
-@large   : @medium;
-@big     : @large;
-@huge    : @big;
-@massive : @huge;
+@large   : @absoluteMedium;
+@big     : @absoluteBig;
+@huge    : @absoluteHuge;
+@massive : @absoluteMassive;
