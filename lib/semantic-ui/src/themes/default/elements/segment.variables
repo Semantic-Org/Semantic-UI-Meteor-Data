@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.2
+  Semantic UI v2.0.4
 */
 /*******************************
             Segment
@@ -82,9 +82,7 @@
 @tallStackedPadding: @verticalPadding + (0.8em);
 
 /* Raised */
-@raisedBoxShadow:
-  @floatingShadow
-;
+@raisedBoxShadow: @floatingShadow;
 
 /* Padded */
 @paddedSegmentPadding: 1.5em;
@@ -98,9 +96,12 @@
 @attachedBoxShadow: none;
 @attachedBorder: @borderWidth solid @solidBorderColor;
 @attachedBottomBoxShadow:
-  @attachedBoxShadow,
-  @subtleShadow
+  @boxShadow,
+  @attachedBoxShadow
 ;
+
+/* Inverted */
+@invertedBackground: @black;
 
 /* Floated */
 @floatedDistance: 1em;

@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.2
+  Semantic UI v2.0.4
 */
 /*******************************
            Overrides
@@ -8,4 +8,7 @@
 
 .ui.steps .step:after {
   display: none !important;
+}
+.ui.steps .step {
+  border-radius: 500px !important;
 }

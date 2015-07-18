@@ -1,14 +1,22 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.2
+  Semantic UI v2.0.4
 */
 /*-------------------
    Step Variables
 --------------------*/
 
-@background: transparent;
-@borderRadius: 500em;
-@boxShadow: none;
+/* Stepss */
+@stepsBorder: none;
+@stepsBorderRadius: @circularRadius;
 
-@activeBackground: #E5E5E5;
+/* Step */
+@border: none;
+@divider: none;
+@background: transparent;
+@borderRadius: @circularRadius;
 @iconDistance: 0.8em;
+@arrowDisplay: none;
+
+@activeBackground: @midWhite;
+@activeArrowDisplay: none;

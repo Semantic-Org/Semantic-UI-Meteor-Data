@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.2
+  Semantic UI v2.0.4
 */
 /*
  * Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -239,6 +239,8 @@ i.icon.cube:before { content: "\f1b2"; }
 i.icon.cubes:before { content: "\f1b3"; }
 i.icon.circle.notched:before { content: "\f1ce"; }
 i.icon.circle.thin:before { content: "\f1db"; }
+i.icon.square.outline:before { content: "\f096"; }
+i.icon.square:before { content: "\f0c8"; }
 
 /* Item Selection */
 i.icon.checkmark:before { content: "\f00c"; }

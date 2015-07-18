@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.2
+  Semantic UI v2.0.4
 */
 /*******************************
              Table
@@ -147,9 +147,16 @@
 ---------------*/
 
 /* Attached */
-@attachedHorizontalOffset: -1px;
+@attachedTopOffset: 0px;
+@attachedBottomOffset: 0px;
+@attachedHorizontalOffset: -@borderWidth;
+@attachedWidth: ~"calc(100% + "-@attachedHorizontalOffset * 2~")";
 @attachedBoxShadow: none;
-@attachedTableWidth: ~"calc(100% + "@attachedHorizontalOffset * -2~")";
+@attachedBorder: @borderWidth solid @solidBorderColor;
+@attachedBottomBoxShadow:
+  @boxShadow,
+  @attachedBoxShadow
+;
 
 /* Striped */
 @stripedBackground: rgba(0, 0, 50, 0.02);
@@ -198,8 +205,10 @@
 @invertedBorder: none;
 @invertedCellBorderColor: @whiteBorderColor;
 @invertedCellColor: @invertedTextColor;
+
 @invertedHeaderBackground: @veryStrongTransparentBlack;
 @invertedHeaderColor: @invertedTextColor;
+@invertedHeaderBorderColor: @invertedCellBorderColor;
 
 @invertedDefinitionColumnBackground: @subtleTransparentWhite;
 @invertedDefinitionColumnColor: @invertedSelectedTextColor;
