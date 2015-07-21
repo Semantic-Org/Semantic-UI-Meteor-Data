@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.4
+  Semantic UI v2.0.5
 */
 .ui.button {
   background-image: linear-gradient(center top , #F7F8FA, #E7E9EC) repeat scroll 0 0 rgba(0, 0, 0, 0);
