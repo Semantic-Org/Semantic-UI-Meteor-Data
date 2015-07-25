@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.5
+  Semantic UI v2.0.7
 */
 /*!
  * # Semantic UI - List
@@ -131,8 +131,11 @@ ol.ui.list ol li,
   display: table-cell;
   background-color: transparent;
   margin: 0em;
-  padding-right: @imageDistance;
   vertical-align: @imageAlign;
+}
+.ui.list .list > .item > .image:not(:only-child):not(img),
+.ui.list > .item > .image:not(:only-child):not(img) {
+  padding-right: @imageDistance;
 }
 .ui.list .list > .item > .image img,
 .ui.list > .item > .image img {
@@ -144,7 +147,6 @@ ol.ui.list ol li,
 .ui.list > .item > img.image,
 .ui.list > .item > .image:only-child {
   display: inline-block;
-  padding-right: 0em;
 }
 
 /* Content */
