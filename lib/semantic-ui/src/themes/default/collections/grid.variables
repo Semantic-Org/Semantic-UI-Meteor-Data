@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*******************************
              Grid
@@ -60,6 +60,11 @@
 @celledPadding: 1em;
 @celledRelaxedPadding: 1.5em;
 @celledVeryRelaxedPadding: 2em;
+
+@celledGridDivider: 0px 0px 0px @celledWidth @celledBorderColor;
+@celledRowDivider: 0px (-@celledWidth) 0px 0px @celledBorderColor;
+@celledColumnDivider: (-@celledWidth) 0px 0px 0px @celledBorderColor;
+
 
 /*--------------
     Stackable

@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*******************************
             Container
@@ -32,11 +32,24 @@
 @largeMonitorGutter: auto;
 
 /* Coupling (Add Negative Margin to container size) */
-@gridGutterWidth: 2em;
+@gridGutterWidth: 2rem;
+@relaxedGridGutterWidth: 3rem;
+@veryRelaxedGridGutterWidth: 5rem;
+
 @mobileGridWidth: @mobileWidth;
 @tabletGridWidth: ~"calc("@tabletWidth~" + "@gridGutterWidth~")";
 @computerGridWidth: ~"calc("@computerWidth~" + "@gridGutterWidth~")";
 @largeMonitorGridWidth: ~"calc("@largeMonitorWidth~" + "@gridGutterWidth~")";
+
+@mobileRelaxedGridWidth: @mobileWidth;
+@tabletRelaxedGridWidth: ~"calc("@tabletWidth~" + "@relaxedGridGutterWidth~")";
+@computerRelaxedGridWidth: ~"calc("@computerWidth~" + "@relaxedGridGutterWidth~")";
+@largeMonitorRelaxedGridWidth: ~"calc("@largeMonitorWidth~" + "@relaxedGridGutterWidth~")";
+
+@mobileVeryRelaxedGridWidth: @mobileWidth;
+@tabletVeryRelaxedGridWidth: ~"calc("@tabletWidth~" + "@veryRelaxedGridGutterWidth~")";
+@computerVeryRelaxedGridWidth: ~"calc("@computerWidth~" + "@veryRelaxedGridGutterWidth~")";
+@largeMonitorVeryRelaxedGridWidth: ~"calc("@largeMonitorWidth~" + "@veryRelaxedGridGutterWidth~")";
 
 /*-------------------
        Types

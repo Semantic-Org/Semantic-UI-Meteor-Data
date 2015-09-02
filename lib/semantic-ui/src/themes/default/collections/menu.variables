@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*******************************
              Menu
@@ -167,7 +167,7 @@
 
 /* Pressed Item */
 @pressedItemBackground: @subtleTransparentBlack;
-@pressedItemColor: @pressedTextColor;
+@pressedItemTextColor: @hoverItemTextColor;
 
 
 /* Active Item */
@@ -216,6 +216,8 @@
 @secondaryItemBackground: none;
 @secondaryItemSpacing: @relative5px;
 @secondaryItemMargin: 0em @secondaryItemSpacing;
+@secondaryItemVerticalPadding: @relativeMini;
+@secondaryItemHorizontalPadding: @relativeSmall;
 @secondaryItemPadding: @relativeMini @relativeSmall;
 @secondaryItemBorderRadius: @defaultBorderRadius;
 @secondaryItemTransition: color @defaultDuration @defaultEasing;
@@ -233,11 +235,16 @@
 @secondaryActiveHoveredItemColor: @selectedTextColor;
 
 @secondaryHeaderBackground: none transparent;
-@secondaryHeaderBorder: 1px solid @borderColor;
+@secondaryHeaderBorder: none;
 
 @secondaryItemVerticalSpacing: @secondaryItemSpacing;
 @secondaryVerticalItemMargin: 0em 0em @secondaryItemVerticalSpacing;
 @secondaryVerticalItemBorderRadius: @defaultBorderRadius;
+
+@secondaryMenuSubMenuMargin: 0em -@secondaryItemHorizontalPadding;
+@secondaryMenuSubMenuItemMargin: 0em;
+@secondarySubMenuHorizontalPadding: (@itemHorizontalPadding / @tinySize) + @subMenuIndent;
+@secondaryMenuSubMenuItemPadding: @relative7px @secondarySubMenuHorizontalPadding;
 
 /* Pointing */
 @secondaryPointingBorderWidth: 2px;
@@ -304,22 +311,27 @@
 
 /* Tabular */
 @tabularBorderColor: @solidBorderColor;
-@tabularBackgroundColor: #FFFFFF;
+@tabularBackgroundColor: transparent;
+@tabularBackground: none @tabularBackgroundColor;
 @tabularBorderWidth: 1px;
 @tabularOppositeBorderWidth: @tabularBorderWidth + 1px;
+@tabularVerticalPadding: @itemVerticalPadding;
 @tabularHorizontalPadding: @relativeHuge;
-@tabularMenuTextColor: @itemTextColor;
+@tabularBorderRadius: @defaultBorderRadius;
+@tabularTextColor: @itemTextColor;
+
+@tabularHoveredTextColor: @hoveredTextColor;
+
+@tabularVerticalBackground: none @tabularBackgroundColor;
 
 @tabularFluidOffset: 1px;
 @tabularFluidWidth: ~"calc(100% + "(@tabularFluidOffset * 2)~")";
+
+@tabularActiveBackground: none @white;
 @tabularActiveColor: @selectedTextColor;
 @tabularActiveBoxShadow: none;
-
-@tabularMenuActiveBackground: @white;
-@tabularMenuActiveColor: @selectedTextColor;
-
 @tabularActiveWeight: bold;
-@tabularBorderRadius: @defaultBorderRadius;
+
 
 
 /* Pagination */
@@ -329,20 +341,23 @@
 
 /* Labeled Icon */
 @labeledIconItemHorizontalPadding: @relativeMassive;
-@labeledIconSize: @relativeHuge;
+@labeledIconSize: @relativeMassive;
 @labeledIconMinWidth: 6em;
 @labeledIconTextMargin: 0.5rem;
 
 
 /* Text */
-@textMenuItemSpacing: 0.5em;
-@textMenuMargin: @relativeLarge -@textMenuItemSpacing;
+@textMenuItemSpacing: @relative7px;
+@textMenuMargin: @relativeMedium -(@textMenuItemSpacing);
 @textMenuItemColor: @mutedTextColor;
 @textMenuItemFontWeight: normal;
-@textMenuItemMargin: 0em @textMenuItemSpacing;
+@textMenuItemMargin: 0em 0em;
+@textMenuItemPadding: @relative5px @textMenuItemSpacing;
 @textMenuItemTransition: opacity @defaultDuration @defaultEasing;
 
 @textMenuSubMenuMargin: 0em;
+@textMenuSubMenuItemMargin: 0em;
+@textMenuSubMenuItemPadding: @relative7px 0em;
 
 @textMenuActiveItemFontWeight: normal;
 @textMenuActiveItemColor: @selectedTextColor;

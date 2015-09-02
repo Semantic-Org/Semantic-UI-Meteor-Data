@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*!
  * # Semantic UI - Table
@@ -470,6 +470,21 @@
 }
 
 /*--------------
+     Fixed
+---------------*/
+
+.ui.fixed.table {
+  table-layout: fixed;
+}
+
+.ui.fixed.table th,
+.ui.fixed.table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/*--------------
    Hoverable
 ---------------*/
 
@@ -574,6 +589,10 @@
    Single Line
 ---------------*/
 
+.ui.table[class*="single line"],
+.ui.table [class*="single line"] {
+  white-space: nowrap;
+}
 .ui.table[class*="single line"],
 .ui.table [class*="single line"] {
   white-space: nowrap;

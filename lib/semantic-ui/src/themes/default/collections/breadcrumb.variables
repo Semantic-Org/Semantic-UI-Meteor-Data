@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*******************************
           Breadcrumb
@@ -10,7 +10,7 @@
      Breadcrumb
 --------------------*/
 
-@verticalMargin: 1em;
+@verticalMargin: 0em;
 @display: inline-block;
 @verticalAlign: middle;
 

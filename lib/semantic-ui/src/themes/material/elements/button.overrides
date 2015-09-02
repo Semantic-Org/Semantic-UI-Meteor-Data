@@ -1,16 +1,8 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 @import url(http://fonts.googleapis.com/css?family=Roboto);
-
-.ui.button {
-  min-width: 72px;
-}
-.ui.circular.button,
-.ui.buttons .button {
-  min-width: 0px;
-}
 
 .ui.primary.button:hover {
   box-shadow:

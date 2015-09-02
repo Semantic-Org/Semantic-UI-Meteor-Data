@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.0.8
+  Semantic UI v2.1.0
 */
 /*******************************
             Button
@@ -17,7 +17,7 @@
 
 @verticalPadding   : 0.8em;
 @horizontalPadding : 0.8em;
-@borderRadius      : @relative2px;
+@borderRadius      : @relative3px;
 @color             : #222222;
 @fontWeight        : normal;
 @textTransform     : none;
@@ -28,7 +28,7 @@
 @solidBorderColor: #DDDDDD;
 
 @borderBoxShadowColor: @solidBorderColor;
-@borderBoxShadow: 0px 0px 0px 1px @solidBorderColor;
+@borderBoxShadow: 0px 0px 0px 1px @solidBorderColor inset;
 @shadowBoxShadow: 0px 0px 0px 0px transparent;
 
 @transition:
@@ -75,6 +75,8 @@
 /* Labeled */
 @labeledIconBackgroundColor: transparent;
 @labeledIconWidth: 2em;
+
+@labeledLabelBorderOffset: 0px;
 
 /* Colored */
 @coloredBackgroundImage : @subtleGradient;
