@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.1.6
+  Semantic UI v2.1.7
 */
 /*
  * # Semantic - Menu
@@ -640,7 +640,8 @@ Floated Menu / Item
 }
 
 /* Coupling with segment for attachment */
-.ui.tabular.menu + .bottom.attached.segment {
+.ui.tabular.menu + .attached:not(.top).segment,
+.ui.tabular.menu + .attached:not(.top).segment + .attached:not(.top).segment {
   border-top: none;
   margin: 0px;
   width: 100%;
